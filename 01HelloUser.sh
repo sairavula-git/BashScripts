@@ -1,4 +1,5 @@
 #!/bin/bash
+#This script is used to greet users in various ways
 user=$(id -un);
 echo Hello ${user^};
 echo Hello $(echo $user | sed 's/.*/\u&/');
